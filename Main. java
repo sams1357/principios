@@ -1,0 +1,22 @@
+   import java.util.Date;
+
+public class Racha {
+    private Date fechaInicio;
+    private Date fechaFin;
+
+    public Racha(Date fechaInicio) {
+        this.fechaInicio = fechaInicio;
+    }
+
+    public void finalizarRacha(Date fechaFin) {
+        this.fechaFin = fechaFin;
+    }
+
+    public Date getFechaInicio() {
+        return fechaInicio;
+    }
+
+    public Date getFechaFin() {
+        return fechaFin;
+    }
+}
